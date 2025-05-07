@@ -17,7 +17,12 @@ void findMaxMin(int *arr, int *max, int *min)
 }
 int main()
 {
-    int arr[] = {2, 4, 1, 3}, *ptr = arr;
+    int arr[7], *ptr = arr;
+    for (int i = 0; i < 7; i++)
+    {
+        cout << ">> Your input: ";
+        cin >> arr[i];
+    }
     int max = sizeof(arr), min = sizeof(arr[0]);
     findMaxMin(ptr, &max, &min);
     cout << "max: " << max << " min: " << min;
