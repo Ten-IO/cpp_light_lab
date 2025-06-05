@@ -1,12 +1,13 @@
 #include <string>
-
+#pragma once // guard redundant inclusion/redefine
 struct Student{
     std::string id, name, program;
     int yr;
 };
 
 struct Element{
-    Student *next, data;
+    Student data;
+    Element *next;
 };
 
 struct ListStudent{
