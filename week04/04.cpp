@@ -1,3 +1,7 @@
+/*
+Create display function for data from 02 and 03. 
++ Then add 2 more students to list.
+*/
 #include <iostream>
 #include <02_dsStudent.h>
 void display(ListStudent *ls)

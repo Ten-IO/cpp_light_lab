@@ -1,3 +1,7 @@
+/* Define a data structure that can store unlimited data of students.  
++ Each student has ID, name, year and program degree.
++ Create an element for student then a list that contains head, tail and 
+pointer. */
 #include <string>
 #pragma once // guard redundant inclusion/redefine
 struct Student{
