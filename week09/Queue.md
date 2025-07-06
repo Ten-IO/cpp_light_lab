@@ -47,4 +47,5 @@ Usage:
 
 \+ Limitation
 ---
-- performance lies on Linked List
+- performance lies on Linked List  
+: help
