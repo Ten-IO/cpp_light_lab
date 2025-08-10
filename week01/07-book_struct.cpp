@@ -1,12 +1,12 @@
-/* Write a C++ program to create a new data structure for storing info of book (book ID, book ISBN, 
-book title, published year, author names and price ($)). Each book could have more than one 
-author. To do: 
-▪ Create an array that can store 5 books’ info.  
-▪ Create a function to display a book info based on ISBN. This function takes a parameter which 
-is an ISBN of a book.   
-void displayBookByISBN(Book books[], int size, string isbn){…. } 
-▪ Create a function to display information of all books.  
-void displayAllBooks(Book books[], int size) { … } 
+/*
+[+] Write a C++ program to create a new data structure for storing info of book (book ID, book ISBN, book title, published year, author names and price ($)). 
+    Each book could have more than one author. To do:
+    ▪ Create an array that can store 5 books’ info.
+    ▪ Create a function to display a book info based on ISBN. This function takes a parameter which
+        is an ISBN of a book.
+    void displayBookByISBN(Book books[], int size, string isbn){…. }
+    ▪ Create a function to display information of all books.
+    void displayAllBooks(Book books[], int size) { … }
 */
 
 #include <iostream>

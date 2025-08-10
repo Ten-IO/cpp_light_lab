@@ -1,19 +1,18 @@
-// Create 5 functions to:  
-// ▪ i) convert temperature Celsius to Fahrenheit: Fahrenheit = (Celsius * 9.0 / 5.0) + 32 
-// ▪ ii) convert temperature Fahrenheit to Celsius: Celsius = (Fahrenheit – 32) * 50 / 9.0 
-// ▪ iii) find root of quadratic equation ax2+bx+c=0.   
-// ▪ iv) compute BMI of a person’s weight and height and tell whether he/she is overweight, 
-// underweight and other terms according to BMI list: - 
-// bmi = weight / (height * height) - - - - 
-// bmi < 18.5, underweight 
-// bmi < 25, normal weight 
-// bmi < 30, overweight 
-// else, obese 
-// ▪ v) sum numbers from 1 to n except those numbers that are divisible by 3, n is a parameter of 
-// the function.  
-// Design a menu program to demonstrate these 5 functions with different test cases during the run 
-// time of the program.
-
+/*
+ [+] Create 5 functions to:  
+    ▪ i) convert temperature Celsius to Fahrenheit: Fahrenheit = (Celsius * 9.0 / 5.0) + 32 
+    ▪ ii) convert temperature Fahrenheit to Celsius: Celsius = (Fahrenheit – 32) * 50 / 9.0 
+    ▪ iii) find root of quadratic equation ax2+bx+c=0.   
+    ▪ iv) compute BMI of a person’s weight and height and tell whether he/she is overweight, 
+        underweight and other terms according to BMI list: 
+            bmi = weight / (height * height) - - - - 
+            bmi < 18.5, underweight 
+            bmi < 25, normal weight 
+            bmi < 30, overweight 
+            else, obese 
+    ▪ v) sum numbers from 1 to n except those numbers that are divisible by 3, n is a parameter of the function.  
+  Design a menu program to demonstrate these 5 functions with different test cases during the run time of the program.
+*/
 #include <iostream>
 #include <cmath>
 using namespace std;

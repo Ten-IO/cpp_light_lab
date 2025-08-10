@@ -1,5 +1,6 @@
-// Create a C++ program that can play a game Rock-Paper-Scissor. The game plays between the 
-// user against the computer.
+/*
+    [+] Create a C++ program that can play a game Rock-Paper-Scissor. User against the computer.
+*/
 
 #include <iostream>
 #include <cstdlib>

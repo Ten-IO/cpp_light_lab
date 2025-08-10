@@ -1,6 +1,7 @@
-// Write a C++ program to find the summation of numbers from 1 to n except number 10 and 30, 
-// where n is a number input by a user and n should be greater than 50.
-
+/*
+ [+] Write a C++ program to find the summation of numbers from 1 to n except number 10 and 30, 
+    where n is a number input by a user and n should be greater than 50.
+*/
 #include <iostream>
 using namespace std;
 

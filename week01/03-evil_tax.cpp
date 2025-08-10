@@ -1,17 +1,18 @@
-// 3. A program to compute tax salary of a person. The program asks for name, gender and salary of a
-// person and tell him/her how much tax he/she is required to pay. The tax is computed based on
-// the rules below:
-// ▪ For males
-// • Salary more than 1000 USD, pay tax 9.5%
-// • Salary 500 – 1000 USD, pay tax 7%
-// • Salary 300 – 500 USD, pay tax 5%
-// • Salary less than 300, no need to pay tax
-// ▪ For females
-// • Salary more than 1000 USD, pay tax 8%
-// • Salary 500 – 1000 USD, pay tax 6.5%
-// • Salary 300 – 500 USD, pay tax 3.5%
-// • Salary less than 300, no need to pay tax
-
+/*
+  [+] A program to compute tax salary of a person. The program asks for name, gender and salary of a person
+   and tell him/her how much tax he/she is required to pay. 
+    The tax is computed based on the rules below:
+ ▪ For males
+    • Salary more than 1000 USD, pay tax 9.5%
+    • Salary 500 – 1000 USD, pay tax 7%
+    • Salary 300 – 500 USD, pay tax 5%
+    • Salary less than 300, no need to pay tax
+ ▪ For females
+    • Salary more than 1000 USD, pay tax 8%
+    • Salary 500 – 1000 USD, pay tax 6.5%
+    • Salary 300 – 500 USD, pay tax 3.5%
+    • Salary less than 300, no need to pay tax
+*/
 #include <iostream>
 #include <cstdio>
 #include <string>

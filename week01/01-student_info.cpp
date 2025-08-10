@@ -1,7 +1,7 @@
 /* 
-Write a C++ program to ask information from a student such as name, gender, major, age then 
-display the greeting message on screen.  Say he/she is eligible to vote the election if the age is at 
-least 18. 
+  [+] Write a C++ program to ask information from a student such as name, gender, major, age 
+  - then display the greeting message on screen.
+  - Say he/she is eligible to vote the election if the age is at least 18. 
 */
 
 #include <iostream>
