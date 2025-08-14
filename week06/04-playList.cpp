@@ -52,6 +52,17 @@ void show(List *ls)
         s = s->next;
     }
 }
+void swap(Song *a, Song *b){
+    std::string t_artist = *a->artist, t_title = *a->title;
+    float t_dur = *a->duration;
+    *a->artist=*b->artist;
+    *a->title=*b->title;
+    *a->duration=*b->duration;
+
+    *a->artist=t_artist;
+    *a->title=t_title;
+    *a->duration=t_duration;
+}
 void sort(List *ls)
 {
     if (ls->n < 2)
@@ -66,9 +77,7 @@ void sort(List *ls)
         {
             if (_fP->duration > _fP->next->duration)
             {
-                float tmp = _fP->duration;
-                _fP->duration = _fP->next->duration;
-                _fP->next->duration = tmp;
+                swap(_fP,_fP->next);
                 swapped = true;
             }
             _fP = _fP->next;
