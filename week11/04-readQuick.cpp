@@ -96,7 +96,7 @@ int main()
     Student st[size];
     std::stringstream stream;
     std::string line;
-    std::ifstream read("student_sample.csv");
+    std::ifstream read("student.csv");
     if (!read)
     {
         std::cerr << "[!] Cannot open student.csv\n";
