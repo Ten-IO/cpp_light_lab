@@ -1,9 +1,9 @@
 /*
-Write a program that can store numbers as many as possible using linked list data structure.
-+ Ask user for a number at a time then add to the list. Keep asking the user for another
-number and add to the list if the input number is not 0.
-    a. When the user inputs 0 twice, display all data in the list and stop the program.
-    b. Finally, compute the summation of all data in the list and show the result.
+    [+] Write a program that can store numbers as many as possible using linked list data structure.
+        + Ask user for a number at a time then add to the list. Keep asking the user for another
+        number and add to the list if the input number is not 0.
+            a. When the user inputs 0 twice, display all data in the list and stop the program.
+            b. Finally, compute the summation of all data in the list and show the result.
 */
 
 #include <iostream>
