@@ -1,5 +1,5 @@
 /*
-    [+] Q1. Write a recursive function to calculate the sum of digits of a number on argument input.
+    [+] Q2. Write a recursive function to calculate the sum of digits of a number on argument input.
 */
 #include <iostream>
 using namespace std;

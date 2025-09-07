@@ -1,5 +1,5 @@
 /*
-    [+] Show how cpp accept argument.
+    [+] Q1. Show how cpp accept argument.
 */
 #include <iostream>
 int main(int argc, char **argv)
