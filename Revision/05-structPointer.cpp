@@ -1,5 +1,5 @@
 /*
-    [+] Q4. Define a struct Student with fields name and score, then
+    [+] Q5. Define a struct Student with fields name and score, then
         use a pointer to access and modify its members.
 */
 #include <iostream>

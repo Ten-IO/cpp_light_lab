@@ -1,5 +1,5 @@
 /*
-   [+] Q2. Write a recursive function to generate the Fibonacci sequence up to n
+   [+] Q4. Write a recursive function to generate the Fibonacci sequence up to n
 */
 #include <iostream>
 int main(int argc, char **argv)
